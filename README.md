@@ -12,6 +12,10 @@ users.
 See also [https://github.com/clehner/broadcat](broadcat) for a similar tool for
 non-interactive programs.
 
+Note: netmux only runs the program it is given once, and each client shares this
+instance of the program. If you want to have each client connect to a new
+instance of the program, use `ncat -e` instead.
+
 ## Installation
 
 	make install
