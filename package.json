@@ -1,0 +1,9 @@
+{
+	"name": "netmux",
+	"version": "1.0.0",
+	"repo": "clehner/netmux",
+	"description": "Socket server wrapper",
+	"keywords": ["socket", "server", "network", "wrapper"],
+	"license": "MIT",
+	"install": "make install"
+}
